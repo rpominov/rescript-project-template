@@ -16,3 +16,10 @@ In your `bsconfig.json` add it to `bs-dependencies`
   "bs-dependencies": [..., "rescript-project-template"],
 }
 ```
+
+## Example
+
+```rescript
+```
+
+## Caveats
