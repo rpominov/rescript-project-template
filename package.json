@@ -2,11 +2,12 @@
   "name": "rescript-project-template",
   "version": "0.0.1",
   "description": "Rescrip project template",
-  "main": "./Main.bs.js",
+  "main": "TODO.js",
   "scripts": {
     "build": "rescript",
     "clean": "rescript clean -with-deps",
-    "start": "rescript build -w"
+    "start": "rescript build -w",
+    "test": "jest"
   },
   "keywords": [
     "rescript"
@@ -19,6 +20,20 @@
   "repository": "github:rpominov/rescript-project-template",
   "license": "MIT",
   "dependencies": {
-    "rescript": "*"
+    "rescript": "^9.1.4"
+  },
+  "devDependencies": {
+    "jest": "^28.0.0"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "github-actions"
+    ],
+    "testLocationInResults": true,
+    "testMatch": [
+      "**/js/tests/*_test.bs.js"
+    ],
+    "snapshotResolver": "./tests/snapshotResolver.js"
   }
 }
