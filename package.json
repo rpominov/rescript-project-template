@@ -35,5 +35,21 @@
       "**/js/tests/*_test.bs.js"
     ],
     "snapshotResolver": "./tests/snapshotResolver.js"
+  },
+  "sdc-check": {
+    "options": {
+      "daysBeforeUpgradeToNewVersion": 7
+    },
+    "errors": [
+      "lockfile-is-not-safe",
+      "package-is-too-new",
+      "install-scripts",
+      "obfuscated-code",
+      "has-os-scripts",
+      "dangerous-shell-commands",
+      "released-after-long-period-of-inactivity",
+      "too-many-decision-makers",
+      "no-source-code"
+    ]
   }
 }
