@@ -1,21 +1,27 @@
-# ReScript Project Template
+# rescript-project-template
 
-The only official ReScript starter template.
+ReScript bindings for ...
 
 ## Installation
 
 ```sh
-npm install
+npm i rescript-project-template
 ```
 
-## Build
+In your `bsconfig.json` add it to `bs-dependencies`
 
-- Build: `npm run res:build`
-- Clean: `npm run res:clean`
-- Build & watch: `npm run res:start`
 
-## Run
-
-```sh
-node src/Demo.bs.js
 ```
+{
+  ...,
+  "bs-dependencies": [..., "rescript-project-template"],
+}
+```
+
+## Example
+
+```rescript
+```
+
+## Caveats
+
