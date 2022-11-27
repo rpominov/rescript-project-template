@@ -10,6 +10,7 @@ npm i rescript-project-template
 
 In your `bsconfig.json` add it to `bs-dependencies`
 
+
 ```
 {
   ...,
@@ -23,3 +24,4 @@ In your `bsconfig.json` add it to `bs-dependencies`
 ```
 
 ## Caveats
+

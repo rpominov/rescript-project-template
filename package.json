@@ -5,7 +5,7 @@
   "main": "TODO.js",
   "scripts": {
     "build": "rescript",
-    "clean": "rescript clean -with-deps",
+    "clean": "rescript clean",
     "start": "rescript build -w",
     "test": "jest"
   },
